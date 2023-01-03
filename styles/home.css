@@ -1,19 +1,22 @@
 section{
-    margin-top: 150px;
-    background-color: gold;
+    margin-top: 120px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .title {
-    margin-left: 30px;
+    margin-right: 64px;
     display: flex;
     flex-direction: column;
     align-items:center;
     flex-shrink: 0;
+    font-size: xx-large;
+    font-weight: 800;
+    line-height: 0;
 }
+
 
 .homepage-pic {
     height:300px;
