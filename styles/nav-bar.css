@@ -21,25 +21,21 @@ nav {
     margin-right: 24px;
     padding: 5px 45px 5px 45px;
     border-style: solid;
-    border-color: rgb(162, 43, 106);
+    border-color: rgb(178, 35, 111);
     border-width: 1px;
     border-radius: 50px;
     box-shadow: 0.5px 1px 3px;
     white-space: nowrap;
-    background-color: rgb(230, 111, 174);
+    background-color: rgb(244, 121, 186);
 }
 
 .nav-buttons:hover {
-    background-color: blueviolet;
+    background-color: rgb(213, 85, 153);
+    box-shadow: 1px 2px 3px;
     transition: 0.15s;
 }
 
 .nav-title {
     color: white;
     padding: 3px;
-}
-
-section{
-    margin-top: 150px;
-    background-color: gold;
 }
