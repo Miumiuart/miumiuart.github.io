@@ -12,4 +12,5 @@
 
 .nav-buttons {
     display: flex;
+    width: 60px;
 }
