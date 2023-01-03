@@ -6,21 +6,21 @@ nav {
     justify-content: end;
     align-items: center;
     position: fixed;
-    top: 90px;
+    top: 0;
     left: 0;
     right: 0;
     padding-right: 10px;
     background-color: rgb(236, 164, 203);
-    box-shadow: 0.5px 1px 3px;
 }
 
 .nav-buttons {
     display: flex;
     flex-direction: row;
     align-items: baseline;
+    justify-content: center;
     text-decoration: none;
     margin-right: 24px;
-    padding: 5px 45px 5px 45px;
+    padding: 5px 45px 10px;
     border-style: solid;
     border-color: rgb(178, 35, 111);
     border-width: 1px;
