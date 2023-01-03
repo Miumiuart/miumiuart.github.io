@@ -1,24 +1,40 @@
-.navigation-bar {
-    height: 80px;
+nav {
+    height: 60px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: end;
     align-items: center;
     position: fixed;
     top: 90px;
     left: 0;
     right: 0;
-    border-style: solid;
-    border-width: 1px;
+    background-color: rgb(236, 164, 203);
 }
 
 .nav-buttons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     text-decoration: none;
+    margin-right: 36px;
+    padding: 5px 50px 5px 50px;
+    border-style: dashed;
+    border-width: 1px;
+    border-radius: 50px;
+    white-space: nowrap;
+    background-color: rgb(230, 111, 174);
 }
 
 .nav-buttons:hover {
     background-color: blueviolet;
+}
+
+.nav-title {
+    color: white;
+    padding: 3px;
+}
+
+section{
+    margin-top: 150px;
+    background-color: gold;
 }
