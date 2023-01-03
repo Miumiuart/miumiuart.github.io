@@ -18,15 +18,18 @@ nav {
     text-decoration: none;
     margin-right: 36px;
     padding: 5px 50px 5px 50px;
-    border-style: dashed;
+    border-style: solid;
+    border-color: rgb(162, 43, 106);
     border-width: 1px;
     border-radius: 50px;
+    box-shadow: 0.5px 1px 3px;
     white-space: nowrap;
     background-color: rgb(230, 111, 174);
 }
 
 .nav-buttons:hover {
     background-color: blueviolet;
+    transition: 0.15s;
 }
 
 .nav-title {
