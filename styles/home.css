@@ -9,27 +9,45 @@ section{
 }
 
 .title {
+    display: flex;
     margin-top: 80px;
     flex-direction: column;
     flex-shrink: 0;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: bold;
-    line-height: 20px;;
+    line-height: 10px;
     color: white;
 
 }
 
 .title p {
-    padding-left: 40px;
+    padding-left: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
+.title-line1 {
+    margin: 45px;;
+}
+
 .title-line2 {
-    margin-left:170px;
+    margin-top: 30px;
 }
 
 .title-line3 {
-    margin-left:250px;
+    margin-left: 80px;
+}
+
+.home-logo {
+    padding-left: 50px;
+    padding-right: 40px;
+    object-fit: cover;
+    height: 100%;
+    mix-blend-mode: multiply;
+}
+
+.title-second-line {
+    display: flex;
+    flex-direction: row;
 }
