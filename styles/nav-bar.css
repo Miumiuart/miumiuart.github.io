@@ -11,6 +11,7 @@ nav {
     right: 0;
     padding-right: 10px;
     background-color: rgb(236, 164, 203);
+    z-index: 200;
 }
 
 .logo{
