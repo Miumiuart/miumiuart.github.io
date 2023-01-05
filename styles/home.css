@@ -51,3 +51,13 @@ section{
     display: flex;
     flex-direction: row;
 }
+
+.class-preview {
+    display: flex;
+    flex-direction: row;
+}
+
+.home-pic {
+    max-width: 100%;
+    object-fit: scale-down;
+}
