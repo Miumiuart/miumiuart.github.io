@@ -5,6 +5,6 @@ body {
     background-size: cover;
     background-color: rgb(236, 164, 203);
     background-blend-mode: luminosity;
-    background-position: top 150px;
     font-family:Arial, Helvetica, sans-serif;
+    max-height: 450px;;
 }
